@@ -1,3 +1,4 @@
 project_id = "your-gcp-project-id"
 region     = "europe-west1"
 image      = "europe-west1-docker.pkg.dev/your-gcp-project-id/md2gdoc/md2gdoc:latest"
+domain     = "md2gdoc.mcp.scm-platform.org"

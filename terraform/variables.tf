@@ -19,3 +19,9 @@ variable "image" {
   description = "Container image to deploy (e.g. gcr.io/PROJECT/md2gdoc:latest)"
   type        = string
 }
+
+variable "domain" {
+  description = "Custom domain for the MCP server"
+  type        = string
+  default     = "md2gdoc.mcp.scm-platform.org"
+}
